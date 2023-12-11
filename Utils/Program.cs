@@ -43,13 +43,13 @@ System.Console.WriteLine("");
 System.Console.WriteLine("");
 
 
-double[] sortedDecendingDouble = MyUtilities.ArrayUtils.SortDecending(doubleArr);
-foreach (double num in sortedDecendingDouble) { System.Console.Write(num + " ");}
-System.Console.WriteLine("");
-int[] sortedDecendingInt = MyUtilities.ArrayUtils.SortDecending(intArr);
-foreach (int num in sortedDecendingInt) { System.Console.Write(num + " ");}
-System.Console.WriteLine("");
-System.Console.WriteLine("");
+// double[] sortedDecendingDouble = MyUtilities.ArrayUtils.SortDecending(doubleArr);
+// foreach (double num in sortedDecendingDouble) { System.Console.Write(num + " ");}
+// System.Console.WriteLine("");
+// int[] sortedDecendingInt = MyUtilities.ArrayUtils.SortDecending(intArr);
+// foreach (int num in sortedDecendingInt) { System.Console.Write(num + " ");}
+// System.Console.WriteLine("");
+// System.Console.WriteLine("");
 
 System.Console.WriteLine(MyUtilities.ArrayUtils.Sum(doubleArr));
 System.Console.WriteLine(MyUtilities.ArrayUtils.Sum(intArr));
@@ -63,13 +63,13 @@ System.Console.WriteLine(MyUtilities.ArrayUtils.Length(doubleArr));
 System.Console.WriteLine(MyUtilities.ArrayUtils.Length(intArr));
 System.Console.WriteLine("");
 
-double[] ReverseDouble = MyUtilities.ArrayUtils.Reverse(doubleArr);
-foreach (double num in ReverseDouble) { System.Console.Write(num + " ");}
-System.Console.WriteLine("");
-int[] ReverseInt = MyUtilities.ArrayUtils.Reverse(intArr);
-foreach (int num in ReverseInt) { System.Console.Write(num + " ");}
-System.Console.WriteLine("");
-System.Console.WriteLine("");
+// double[] ReverseDouble = MyUtilities.ArrayUtils.Reverse(doubleArr);
+// foreach (double num in ReverseDouble) { System.Console.Write(num + " ");}
+// System.Console.WriteLine("");
+// int[] ReverseInt = MyUtilities.ArrayUtils.Reverse(intArr);
+// foreach (int num in ReverseInt) { System.Console.Write(num + " ");}
+// System.Console.WriteLine("");
+// System.Console.WriteLine("");
 
 // double[] ClearedDouble = MyUtilities.ArrayUtils.Clear(doubleArr, 1,3);
 // foreach (double num in ClearedDouble) { System.Console.Write(num + " ");}
@@ -79,13 +79,11 @@ System.Console.WriteLine("");
 // System.Console.WriteLine("");
 // System.Console.WriteLine("");
 
-foreach (int num in intArr) {
-    System.Console.Write(num + " ");
-}
+
+// MUST comment out all cleared, reversed and SortDecending code to work
+foreach (int num in intArr) { System.Console.Write(num + " ");}
 System.Console.WriteLine("");
-foreach(double num in doubleArr) {
-    System.Console.Write(num + " ");
-}
+foreach(double num in doubleArr) {System.Console.Write(num + " ");}
 System.Console.WriteLine("");
-System.Console.WriteLine(MyUtilities.ArrayUtils.IndexOf(intArr, 4));
-System.Console.WriteLine(MyUtilities.ArrayUtils.IndexOf(doubleArr,4));
+System.Console.WriteLine(MyUtilities.ArrayUtils.IndexOf(intArr, 6));
+System.Console.WriteLine(MyUtilities.ArrayUtils.IndexOf(doubleArr,5.6));

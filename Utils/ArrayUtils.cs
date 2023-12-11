@@ -206,21 +206,23 @@ namespace MyUtilities {
 
             while (left <= right){
                 int mid = (left + right) / 2;
-                if (num == arr[mid] ) {
-                    return mid;
+                
+                if (num > arr[mid]) {
+                    left = mid +1;
                 }
-                else if (arr[mid] < num) {
-                    left = mid + 1;
-                }
-                else {
+                else if (num < arr[mid]) {
                     right = mid - 1;
                 }
+                else {
+                    return mid;
+                }
+                
             }
             return -1;
         }
         public static int IndexOf(double[] arr, double num) {
             int left = 0;
-            int right = Length(arr) -1;
+            int right = Length(arr) -1 ;
 
             while (left <= right){
                 int mid = (left + right) / 2;
@@ -235,6 +237,7 @@ namespace MyUtilities {
                 }
             }
             return -1;
+            
         }
     }
 }
