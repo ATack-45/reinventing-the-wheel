@@ -137,12 +137,87 @@ namespace MyUtilities {
         public static float Multiply(float num1, float num2) {
             return num1 * num2;
         }
-        public static int Factorial(int num){
-            int product = 1;
-            for(int i = 1; i <= num; i++) {
-                product = product * i;
-            }
-            return product;
+        
+        public static double Average(int num1, int num2) {
+            return ((double)num1 + (double)num2) / 2;
         }
+        public static double Average(double num1, double num2) {
+            return (num1 + num2) / 2;
+        }
+        public static double Average(float num1, float num2) {
+            return (num1 + num2) / 2;
+        }
+       
+        public static double Celling(double num) {
+            double decimalValue = num % 2;
+            if (decimalValue > 1){
+                decimalValue = decimalValue - 1;
+            }
+            double increaseValue = 1 - decimalValue;
+            return num + increaseValue;
+        }
+        public static decimal Celling(decimal num) {
+            decimal decimalValue = num % 2;
+            if (decimalValue > 1){
+                decimalValue = decimalValue - 1;
+            }
+            decimal increaseValue = 1 - decimalValue;
+            return num + increaseValue;
+        }
+        public static float Celling(float num) {
+            float decimalValue = num % 2;
+            if (decimalValue > 1){
+                decimalValue = decimalValue - 1;
+            }
+            float increaseValue = 1 - decimalValue;
+            return num + increaseValue;
+        }
+        public static double Floor(double num) {
+            double decimalValue = num % 2;
+            return num - decimalValue;
+        }
+        public static decimal Floor(decimal num) {
+            decimal decimalValue = num % 2;
+            return num - decimalValue;
+        }
+        public static float Floor(float num) {
+            float decimalValue = num % 2;
+            return num - decimalValue;
+        }
+        
+        public static double Round(double num){
+            double decimalValue = num % 1;
+            if (decimalValue < .5) {
+                return num - decimalValue;
+            }
+            else {
+                double roundingValue = 1 - decimalValue;
+                return num + roundingValue;
+            }
+            
+        }
+        public static decimal Round(decimal num){
+            decimal decimalValue = num % 1;
+            if (decimalValue < .5M) {
+                return num - decimalValue;
+            }
+            else {
+                decimal roundingValue = 1 - decimalValue;
+                return num + roundingValue;
+            }
+            
+        }
+        public static float Round(float num){
+            float decimalValue = num % 1;
+            if (decimalValue < .5) {
+                return num - decimalValue;
+            }
+            else {
+                float roundingValue = 1 - decimalValue;
+                return num + roundingValue;
+            }
+            
+        }
+
     }
 }

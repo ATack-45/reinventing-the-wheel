@@ -132,7 +132,27 @@ System.Console.WriteLine(MyUtilities.MathUtils.Divide(6.2,5.3));
 System.Console.WriteLine(MyUtilities.MathUtils.Divide(3f,2f));
 System.Console.WriteLine("");
 
-System.Console.WriteLine(MyUtilities.MathUtils.Factorial(7));
+System.Console.WriteLine(MyUtilities.MathUtils.Round(7.5));
+System.Console.WriteLine(MyUtilities.MathUtils.Round(7.4M));
+System.Console.WriteLine(MyUtilities.MathUtils.Round(7.7f));
+System.Console.WriteLine("");
+
+System.Console.WriteLine(MyUtilities.MathUtils.Celling(4.2));
+System.Console.WriteLine(MyUtilities.MathUtils.Celling(4.2M));
+System.Console.WriteLine(MyUtilities.MathUtils.Celling(4.2f));
+System.Console.WriteLine("");
+
+System.Console.WriteLine(MyUtilities.MathUtils.Floor(4.2));
+System.Console.WriteLine(MyUtilities.MathUtils.Floor(4.2M));
+System.Console.WriteLine(MyUtilities.MathUtils.Floor(4.2f));
+System.Console.WriteLine("");
+
+System.Console.WriteLine(MyUtilities.MathUtils.Average(4, 7));
+System.Console.WriteLine(MyUtilities.MathUtils.Average(4.2, 7.6));
+System.Console.WriteLine(MyUtilities.MathUtils.Average(4.2f, 9.6f));
+System.Console.WriteLine("");
+
+
 
 
 
