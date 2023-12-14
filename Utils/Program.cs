@@ -93,7 +93,8 @@ System.Console.WriteLine(MyUtilities.ArrayUtils.IndexOf(intArr, 6));
 System.Console.WriteLine(MyUtilities.ArrayUtils.IndexOf(doubleArr,5.6));
 */
 
-
+/*
+//math utils test cases
 System.Console.WriteLine(MyUtilities.MathUtils.Power(2, 3));
 System.Console.WriteLine("");
 
@@ -151,9 +152,7 @@ System.Console.WriteLine(MyUtilities.MathUtils.Average(4, 7));
 System.Console.WriteLine(MyUtilities.MathUtils.Average(4.2, 7.6));
 System.Console.WriteLine(MyUtilities.MathUtils.Average(4.2f, 9.6f));
 System.Console.WriteLine("");
-
-
-
+*/
 
 
 
