@@ -1,5 +1,5 @@
 # Utility Package
-This is a repository of tools made to convinently do simple tasks such as simple artithmitic, word transformations and array sorting to name a few. This package was created to easily integrate into projects via NuGet to deliver a convient and simple way to do a variety of simple tasks.
+This is a repository of tools made to convinently do simple tasks such as simple artithmitic, word transformations and array sorting to name a few. This package was created to easily integrate into projects via NuGet to deliver a convient and simple way to do a variety of simple tasks under a MIT licence.
 
 ## String Examples
 ### ToUpper
